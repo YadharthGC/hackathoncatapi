@@ -1,0 +1,78 @@
+#img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border: solid 2px silver;
+    padding: 1%;
+}
+
+#catlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: flex-start;
+    margin-top: 4%;
+    row-gap: 3%;
+}
+
+.cat {
+    margin: 2%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#button {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* The actual popup */
+
+.popup .popuptext {
+    visibility: hidden;
+    left: 100%;
+    margin-left: -80px;
+}
+
+
+/* Popup arrow */
+
+
+/* Toggle this class - hide and show the popup */
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 5s;
+    animation: fadeIn 5s;
+}
+
+
+/* Add animation (fade in the popup) */
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
