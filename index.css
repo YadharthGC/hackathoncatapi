@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+    background-image: linear-gradient(to right top, #22e9ea, #77eef4, #a9f2fb, #d2f7fd, #f7fbfc);
+    font-family: 'Lobster', cursive;
+}
+
 #img {
     height: 100px;
     width: 100px;
@@ -8,10 +14,10 @@
 
 #catlist {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    place-items: flex-start;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
     margin-top: 4%;
-    row-gap: 3%;
+    row-gap: 38px;
 }
 
 .cat {
