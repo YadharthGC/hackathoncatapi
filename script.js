@@ -38,7 +38,7 @@ function search() {
             var a = document.createElement("div");
             a.id = 'cat';
             a.innerHTML = `
-            <div class="popup" style="text-align:left" ><input type="image" onclick="myFunction()" class="popup" id="img" src="https://cataas.com/cat/${cat.id}"> 
+            <div class="popup" onclick="myFunction()"><input type="image" class="popup" id="img" src="https://cataas.com/cat/${cat.id}"> 
             <span class="popuptext" id="myPopup"><img src="https://cataas.com/cat/${cat.id}" style="width:150px;height:150px;border-radius:50%"></span><div>
             <div>
                <div>Created on:${new Date(cat.created_at).toDateString()}</div>
