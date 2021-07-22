@@ -14,7 +14,7 @@ body {
 
 #catlist {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     place-items: center;
     margin-top: 4%;
     row-gap: 38px;
