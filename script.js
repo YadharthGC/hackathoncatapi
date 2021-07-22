@@ -12,7 +12,7 @@ function load(cats) {
     <img src="https://cataas.com/cat/${cat.id}" style="height:100px;width:100px;object-fit:cover"></img><br><br>
     <div style="text-align:left;color:gray">Created on:${new Date(cat.created_at).toDateString()}</div>
                <div style="text-align:left;color:gray">Tags:${cat.tags}</div>
-            </div>
+            
     `
         catlist.append(a);
     })
